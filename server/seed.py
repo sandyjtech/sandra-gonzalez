@@ -11,9 +11,9 @@ with app.app_context():
     Project.query.delete()
 
 #     # Seed the Blogs table
-#     for blog_data in data.get('blogs', []):
-#         blog = Blog(**blog_data)
-#         db.session.add(blog)
+    for blog_data in data.get('blogs', []):
+        blog = Blog(**blog_data)
+        db.session.add(blog)
 
  # Seed the Projects table
     for project_data in data.get('projects', []):
