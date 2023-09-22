@@ -1,0 +1,74 @@
+{
+  "blogs": [
+    {
+     "title": "What are loops and iteration?",
+      "content": "In my Full Stack journey, I explored algorithms through research, video notes, and my 'loop cheat sheet,' an essential tool for success.",
+      "link": "https://medium.com/@sandyjtech/what-are-loops-and-iteration-b9460395cf87"
+    },
+    { 
+      "title": "The Big O Notation.",
+      "content": "At the start of my Full-stack Software Engineering Bootcamp, I was intimidated by algorithms. Fortunately, my instructor guided me and helped me understand their concepts. As I dove deeper into the subject, I became fascinated with the intricate ways in which algorithms enhance our programming skills and enable us to improve our program’s efficiency. Here are my notes on Big O Notation.",
+      "link": "https://medium.com/@sandyjtech/the-big-o-notation-ef866faf4f1e"
+    },
+    { 
+      "title": "Creating a database using Python and SQLAlchemy.",
+      "content": "SQLAlchemy is an awesome Object-Relational Mapping (ORM) library that allows us to interact with databases using Python. I will provide you with my step-by-step notes on how to create a database using Python and Alchemy.",
+      "link": "https://medium.com/@sandyjtech/creating-a-database-using-python-and-sqlalchemy-422b7ba39d7e"
+    },
+    {
+
+      "title": "Mastering flask from fundamentals to advanced concepts.",
+      "content": "Embarking on Flask web development unlocks versatile web application possibilities. Let's explore foundational building blocks and advanced techniques for mastery.",
+      "link": "https://medium.com/@sandyjtech/mastering-flask-from-fundamentals-to-advanced-concepts-f1d60ac740d0"
+    },
+    {
+      "title": "Building a full stack app with flask react mysql.",
+      "content": "Creating a full-stack app is a daunting task and I remember feeling overwhelmed and lost during my first attempt. However, after putting in a lot of hard work and sleepless nights, I was eventually able to complete the assignment. As a result, I have decided to create a tutorial on how to create a full-stack app, so that others can benefit from my experience.",
+      "link": "https://medium.com/@sandyjtech/building-a-full-stack-app-with-flask-react-mysql-a78fcc235ff0"
+    }
+  ],
+  "projects": [
+    {
+      "title": "NFLeague",
+      "description": "Developed a full-stack application using Flask, Python, and React, including database creation with SQLAlchemy.",
+      "link": "https://github.com/sandyjtech/fleague",
+      "video": "https://drive.google.com/file/d/1OswkTXvCAthvA92tyyojGqP4eEecqmce/preview"
+    },
+      {
+          "title": "Candy Shop",
+          "description": "Designed game mechanics and user interface",
+          "link": "https://sandyjime21.github.io/Candy-Shop/",
+          "video": "https://drive.google.com/file/d/1KvoClPLC6O75H_YsS6yPU3Z4dWU_hfoQ/preview"
+        },
+      {
+          "title": "Franco Cleaning",
+          "description": "Developed website using React with JavaScript and Bootstrap styling",
+          "link": "https://sandyjime21.github.io/Franco-Cleaning/",
+          "video": "https://drive.google.com/file/d/1nqKY1KeVkRGNwfFrySjDnWAx80UqEdK1/preview"
+      },
+    {
+      "title": "Pianito",
+      "description": "Created an interactive keyboard interface with React",
+      "link": "https://sandyjime21.github.io/Pianito/",
+      "video": "https://drive.google.com/file/d/1JrmnY0BMmoxBK2Kgyrt3LwVgMVE1Qj2w/preview"
+    },
+    {
+      "title": "MYFLIX",
+      "description": "I built MYFLIX, which uses Axios for movie data from the Movie DB API, Firebase for user auth, and has responsive mobile design.",
+      "link": "https://sandyjime21.github.io/MYFLIX/",
+      "video": "https://drive.google.com/file/d/1gNWNtxBzAsnYPQS3AORyBWhNv418tTfk/preview"
+    },
+    {
+      "title": "Bad Reads",
+      "description": "I created Badreads, a web app for book enthusiasts with an intuitive UI, search, book info, and user reviews, showcasing my JavaScript, React and web development skills.",
+      "link": "https://sandyjtech.github.io/badreads/",
+      "video": "https://drive.google.com/file/d/1MI9IyB_5lg_bDHZeA78kSKOc8mpWkuub/preview"
+    },
+    {
+      "title": "My Sous Chef",
+      "description": "Created a recipe-based website that showcases my expertise in API rendering and data fetching using JavaScript.",
+      "link": "https://sandyjtech.github.io/my-sous-chef/",
+      "video": "https://drive.google.com/file/d/1RXPa23JXRjwNxkFOUEsWHvMwEuFfPe68/preview"
+    }
+  ]
+}
