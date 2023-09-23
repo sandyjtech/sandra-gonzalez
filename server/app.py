@@ -12,6 +12,9 @@ from models import Blog, Project, Comment
 @app.route("/<int:id>")
 def index(id=0):
     return render_template("index.html")
+@app.errorhandler(404)
+def not_found(e):
+    return render_template("index.html")
 # Define API resources
 class BlogResource(Resource):
     def get(self):
