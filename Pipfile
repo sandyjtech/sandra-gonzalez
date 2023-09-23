@@ -11,6 +11,7 @@ flask-migrate = "*"
 sqlalchemy-serializer = "*"
 flask-restful = "*"
 flask-cors = "*"
+honcho = '*'
 faker = "*"
 python-dotenv = "*"
 gunicorn = "==21.2.0"

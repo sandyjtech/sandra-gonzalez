@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # app.py
-from flask import Flask, make_response, jsonify, request, session, abort
+from flask import Flask, make_response, jsonify, render_template, request, session, abort
 from sqlalchemy.exc import IntegrityError
 from flask_sqlalchemy import SQLAlchemy
 from flask_restful import Api, Resource
@@ -8,7 +8,10 @@ from flask_restful import Api, Resource
 # Local imports
 from config import app,api, Resource, db
 from models import Blog, Project, Comment 
-
+@app.route("/")
+@app.route("/<int:id>")
+def index(id=0):
+    return render_template("index.html")
 # Define API resources
 class BlogResource(Resource):
     def get(self):
