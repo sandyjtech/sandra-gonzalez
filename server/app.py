@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
 # app.py
-# Remote library imports
-from flask import abort, request, session
-from sqlite3 import IntegrityError
-from flask import Flask, make_response, jsonify, request, session
+from flask import Flask, make_response, jsonify, request, session, abort
 from sqlalchemy.exc import IntegrityError
-##to deploy
-# from dotenv import load_dotenv
-# load_dotenv()
+from flask_sqlalchemy import SQLAlchemy
+from flask_restful import Api, Resource
 
 # Local imports
 from config import app,api, Resource, db
