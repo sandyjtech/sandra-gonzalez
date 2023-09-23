@@ -1,7 +1,8 @@
 {
-  "name": "client",
+  "name": "sandra-gonzalez",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sandra-gonzalez-app.onrender.com",
   "proxy": "http://localhost:5555",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
